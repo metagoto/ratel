@@ -12,6 +12,7 @@ The insteresting parts are
 where the read and write io callbacks resume a coroutine.
 
 Currently, most of the server code derives from [libebb](https://github.com/ry/libebb).
+
 Additional dependencies: [http-parser](https://github.com/joyent/http-parser) and [Boost.Pool](http://boost.org)
 
-Compile with g++'s c++0x mode
+Compile with g++'s c++0x mode. Warning: Makefile is a bunch of crap!
